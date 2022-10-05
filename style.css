@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(241, 238, 238);
+}
+.heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+.roundedge{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+div{
+    border: 0px;
+    border-bottom: 2px solid grey;
+    text-align: center;
+}
+input{
+    border: 2px solid black;
+    height: 20px;
+    width: 300px;
+}
+#four input{
+    border: 2px solid black;
+}
+#three input{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid grey;
+}
+#two input{
+    border: 2px solid grey;
+    background-color: rgb(201, 201, 201);
+}
+::placeholder{
+    color: black;
+}
+#outshadow{
+    margin-top: 20px;
+    box-shadow: 1px 1px 10px 10px lightblue;
+}
